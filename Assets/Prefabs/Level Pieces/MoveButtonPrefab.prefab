@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 65: {fileID: 6500000}
+  - 114: {fileID: 11400002}
+  - 33: {fileID: 3300000}
+  - 23: {fileID: 2300000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MoveButtonPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1002 &100001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: .748960853, y: -1.63226748, z: 1.38919258}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!1002 &400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!23 &2300000
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: e14c2b444529e9141b65f76021f64695, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+--- !u!1002 &2300001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Mesh: {fileID: 0}
+--- !u!1002 &3300001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!65 &6500000
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1002 &6500001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 388151173b234e94ea3e4e0938c0ec22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isRight: 0
+  buttonIsPressed: 0
+--- !u!1002 &11400001
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2249238ae9383844beb0ffa1774f174, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  managed: 0
+  manager: {fileID: 0}
+  drawLayer: 0
+  persistent: 0
+  plane: 0
+  winding: 1
+  width: 1
+  height: 1
+  bleedCompensation: {x: 0, y: 0}
+  anchor: 9
+  pixelPerfect: 0
+  autoResize: 0
+  billboarded: 0
+  isClone: 0
+  offset: {x: 0, y: 0, z: 0}
+  color: {r: 1, g: 1, b: 1, a: 1}
+  renderCamera: {fileID: 0}
+  pixelsPerUV: {x: 512, y: 512}
+  hideAtStart: 0
+  ignoreClipping: 0
+  playAnimOnStart: 0
+  defaultAnim: 0
+  animations: []
+  staticTexPath: assets/textures/buttons/moveright.png
+  staticTexGUID: 3d3628dbbc0c3134d95dd2e5f564fcb0
+  _ser_stat_frame_info:
+    uvs:
+      serializedVersion: 2
+      x: .294921875
+      y: .294921875
+      width: .29296875
+      height: .2890625
+    scaleFactor: {x: .5, y: .506756783}
+    topLeftOffset: {x: -1, y: .986666679}
+    bottomRightOffset: {x: 1, y: -.986666679}
+  textureAnimations:
+  - name: Left
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 29.9999981
+    onAnimEnd: 0
+    framePaths: []
+    frameGUIDs:
+    - e8aa276140f3f95438ebe08f2f273db8
+    spriteFrames:
+    - uvs:
+        serializedVersion: 2
+        x: 0
+        y: .294921875
+        width: .29296875
+        height: .29296875
+      scaleFactor: {x: .5, y: .5}
+      topLeftOffset: {x: -1, y: 1}
+      bottomRightOffset: {x: 1, y: -1}
+  - name: Right
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 29.9999981
+    onAnimEnd: 0
+    framePaths: []
+    frameGUIDs:
+    - 3d3628dbbc0c3134d95dd2e5f564fcb0
+    spriteFrames:
+    - uvs:
+        serializedVersion: 2
+        x: .294921875
+        y: .294921875
+        width: .29296875
+        height: .2890625
+      scaleFactor: {x: .5, y: .506756783}
+      topLeftOffset: {x: -1, y: .986666679}
+      bottomRightOffset: {x: 1, y: -.986666679}
+  - name: LeftActive
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 29.9999981
+    onAnimEnd: 0
+    framePaths: []
+    frameGUIDs:
+    - cd34180fcf9362345bc41d6b4a34f5ed
+    spriteFrames:
+    - uvs:
+        serializedVersion: 2
+        x: .58984375
+        y: .294921875
+        width: .2421875
+        height: .240234375
+      scaleFactor: {x: .604838729, y: .609756112}
+      topLeftOffset: {x: -1, y: .639999986}
+      bottomRightOffset: {x: .653333306, y: -1}
+  - name: RightActive
+    loopCycles: 0
+    loopReverse: 0
+    framerate: 29.9999981
+    onAnimEnd: 0
+    framePaths: []
+    frameGUIDs:
+    - 00c54ab220d74a24daac4f2bf893945a
+    spriteFrames:
+    - uvs:
+        serializedVersion: 2
+        x: 0
+        y: .58984375
+        width: .240234375
+        height: .2421875
+      scaleFactor: {x: .609756112, y: .604838729}
+      topLeftOffset: {x: -.639999986, y: .653333306}
+      bottomRightOffset: {x: 1, y: -1}
+--- !u!1002 &11400003
+EditorExtensionImpl:
+  serializedVersion: 6
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
+--- !u!1002 &100100001
+EditorExtensionImpl:
+  serializedVersion: 6
